@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Galería de imágenes</title>
+
+    <style type="text/css">
+    
+    body {
+        background-color: rgb(32,32,32);
+    }
+
+    header{
+        color: lightgray;
+        background-color: rgb(32,32,32);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: x-large;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    nav {
+        color: lightgray;
+        background-color: rgb(64,64,64);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: large;
+        padding-top: 5px;
+        padding-bottom:5px;
+    }
+
+    nav a{
+        display: block;
+        color: rgb(240,240,240);
+        padding: 5px;
+        text-decoration: none;
+        float: left;
+    }
+
+    nav a:hover {
+        color: rgb(64,64,64);
+        background-color: rgb(240,240,240);
+    }
+
+    nav a.enlace-contacto{
+        float: right;
+    }
+    nav::after{
+        display:block;
+        content: "";
+        clear: both;
+    }
+
+    .fila-galeria{
+        width:95%;
+        margin: auto;
+    }
+    .fila-galeria::after{
+        content: "";
+        clear: both;
+        display: table;}
+
+    .elemento-galeria
+    {
+        box-sizing: border-box;
+        float:left;
+        width: 33%;
+        padding: 10px;
+        background-color: lightgray;
+        text-align: center;
+        color:black
+    }
+
+    .imagen-galeria{
+        padding 10px;
+    }
+
+    .imagen-galeria img{
+        width: 100%;
+    }
+    .descripcion-imagen
+    {
+        padding: 10px;
+
+    }
+    
+    section{
+        background-color: lightgray;
+        color: rgb(32,32,32);
+        width: 100%;
+        min-height: 600px;
+    }
+    
+    footer{
+        color: lightgray;
+        background-color: rgb(32,32,32);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: small;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        
+    }
+
+    </style>
+
+</head>
+<body>
+    <div>
+
+    <header>Mis imágenes</header>
+    <nav>
+        <a href="https://www.google.es">Página 1</a>
+        <a href="https://www.google.es">Página 2</a>
+        <a href="https://www.google.es">Página 3</a>
+        <a class="enlace-contacto" href="https://www.google.es">Contacto</a>
+    </nav>    
+    <section>
+        <div class="fila-galeria">
+            <div class="elemento-galeria">
+               <div class="imagen-galeria">
+                <img src="img/minero-web.png" alt="foto del minero"/>
+               </div> 
+
+               <div class="descripcion-imagen">
+                Esta es la fotografía del minero de puertollano
+               </div>
+            </div>
+
+            <div class="elemento-galeria">
+                <div class="imagen-galeria">
+                 <img src="img/minero-web.png" alt="foto del minero"/>
+                </div> 
+ 
+                <div class="descripcion-imagen">
+                 Esta es la fotografía del minero de puertollano
+                </div>
+             </div>
+
+             <div class="elemento-galeria">
+                <div class="imagen-galeria">
+                 <img src="img/minero-web.png" alt="foto del minero"/>
+                </div> 
+ 
+                <div class="descripcion-imagen">
+                 Esta es la fotografía del minero de puertollano
+                </div>
+             </div>
+        </div>
+
+        <div class="fila-galeria">
+            <div class="elemento-galeria">
+               <div class="imagen-galeria">
+                <img src="img/minero-web.png" alt="foto del minero"/>
+               </div> 
+
+               <div class="descripcion-imagen">
+                Esta es la fotografía del minero de puertollano
+               </div>
+            </div>
+
+            <div class="elemento-galeria">
+                <div class="imagen-galeria">
+                 <img src="img/minero-web.png" alt="foto del minero"/>
+                </div> 
+ 
+                <div class="descripcion-imagen">
+                 Esta es la fotografía del minero de puertollano
+                </div>
+             </div>
+
+             <div class="elemento-galeria">
+                <div class="imagen-galeria">
+                 <img src="img/minero-web.png" alt="foto del minero"/>
+                </div> 
+ 
+                <div class="descripcion-imagen">
+                 Esta es la fotografía del minero de puertollano
+                </div>
+             </div>
+        </div>
+
+        <div class="fila-galeria">
+            <div class="elemento-galeria">
+               <div class="imagen-galeria">
+                <img src="img/minero-web.png" alt="foto del minero"/>
+               </div> 
+
+               <div class="descripcion-imagen">
+                Esta es la fotografía del minero de puertollano
+               </div>
+            </div>
+
+            <div class="elemento-galeria">
+                <div class="imagen-galeria">
+                 <img src="img/minero-web.png" alt="foto del minero"/>
+                </div> 
+ 
+                <div class="descripcion-imagen">
+                 Esta es la fotografía del minero de puertollano
+                </div>
+             </div>
+
+             <div class="elemento-galeria">
+                <div class="imagen-galeria">
+                 <img src="img/minero-web.png" alt="foto del minero"/>
+                </div> 
+ 
+                <div class="descripcion-imagen">
+                 Esta es la fotografía del minero de puertollano
+                </div>
+             </div>
+        </div>
+
+
+    </section>
+
+    <footer>(C) 2024 CIFP Virgen de Gracia</footer>
+    </div>
+</body>
+</html>
