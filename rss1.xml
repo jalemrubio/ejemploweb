@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+
+    <title>RSS de Jaime</title>
+    <link>http://localhost/index.html</link>
+    <description>Esto es un ejemplo de canal RSS</description>
+
+    <item>
+        <title>Primer artículo</title>
+        <link>http://localhost/index.html</link>
+        <description>Este es mi primer artículo</description>
+    </item>
+
+    <item>
+        <title>Segundo artículo</title>
+        <link>http://localhost/index.html</link>
+        <description>Este es mi segundo artículo</description>
+    </item>
+
+</channel>
+
+</rss>
